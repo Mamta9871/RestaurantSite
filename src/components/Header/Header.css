@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    color: white;
+    position: relative;
+    z-index: 999;
+}
+
+.logo{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cart-style{
+    display: flex;
+    margin-left: 65%;
+    background-color: brown;
+    width: 15%;
+    height: 20%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    justify-content: flex-start
+}
+
+.Banner{
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
