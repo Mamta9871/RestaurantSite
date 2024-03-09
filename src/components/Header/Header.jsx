@@ -9,10 +9,10 @@ const Header = () => {
     <>
     <div className='navbar'>
         <h1 className='logo'>ResTaurant</h1>    
-      <div className='Cart-style'>
+      <button className='Cart-style'>
       <ShoppingCartIcon id="Icon" fontSize='large'/> 
-      <h1 className='cart'> Your Cart</h1>  
-      </div>
+      <h1 className='cart'> Your Cart <span>0</span></h1> 
+      </button>
     </div>
     <div >
       <img className='Banner' src={Banner} alt="Picture" />
