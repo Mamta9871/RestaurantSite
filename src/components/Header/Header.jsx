@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Header.css'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import Banner from '../Images/Banner.jpg'
 
 
 const Header = () => {
+  const[cart,setCart]=useState(0)
+
+  const HandleChange = () => {
+    cart++
+    setCart(cart)
+  }
   return (
     <>
     <div className='navbar'>
         <h1 className='logo'>ResTaurant</h1>    
-      <button className='Cart-style'>
+      <button className='Cart-style' onClick={HandleChange}>
       <ShoppingCartIcon id="Icon" fontSize='large'/> 
-      <h1 className='cart'> Your Cart <span>0</span></h1> 
+      <h1 className='cart'> Your Cart <span>{cart}</span></h1> 
       </button>
     </div>
     <div >
