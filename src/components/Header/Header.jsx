@@ -5,12 +5,14 @@ import Banner from '../Images/Banner.jpg'
 
 
 const Header = () => {
-  const[cart,setCart]=useState(0)
+  const[cart,setCart]=useState(5)
 
-  const HandleChange = () => {
-    cart++
+  const HandleChange = (e) => {
+    setCart(e.target.value)
     setCart(cart)
+
   }
+
   return (
     <>
     <div className='navbar'>

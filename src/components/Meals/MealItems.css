@@ -18,3 +18,6 @@
     font-weight: bold;
   }
 
+  .item-actions {
+    position: relative;
+  }

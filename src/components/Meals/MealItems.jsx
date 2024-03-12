@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './MealItems.css';
+import Add from '../Button/Add';
 
 const Items = [
     {
@@ -34,22 +35,25 @@ const Items = [
     }  
 ]
 const MealItems = () => {
+
     
   return (
-    <>
-    <section className='MealItems'>
-        <ul>{Items.map((val)=>
-            <li>
-                {val.name}
-                <br/>
-                {val.description}
+    <div className='MealItems'>
+        <ul>{Items.map((item)=>
+            <li key={item.id}>
+                <div className='item-info'>
+                    <p>{item.name}</p>
+                    <p>{item.description}</p>
+                    <p>Rs.{item.price}</p>
+                </div>
                 <br />
-                Rs.{val.price}
                 <hr />
+                <div className='item-actions'>
+                <Add id={item.id}/>
+                </div>
             </li>
         )}</ul>
-    </section>
-    </>
+    </div>
   )
 }
 
