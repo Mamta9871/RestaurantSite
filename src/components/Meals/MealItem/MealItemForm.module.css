@@ -1,0 +1,29 @@
+.form button {
+    font: inherit;
+    cursor: pointer;
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    padding: 0.50rem;
+    border-radius: 5px;
+    font-weight: bold;
+    justify-content: center;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: red;
+    border-color: red;
+  }
+
+  input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 50px;
+    margin-right: 10px;
+  }
+
+
+  

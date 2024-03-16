@@ -1,0 +1,21 @@
+.CartStyle {
+    display: flex;
+    align-items: center;
+    background-color: brown; 
+    padding: 5px 15px; 
+    border-radius: 20px;
+    color: white;
+    font-size: small;
+  }
+
+  button:hover,
+  button:active{
+    background-color: black;
+  }
+
+  span {
+    background-color: red; 
+    padding: 4px 8px; 
+    border-radius: 50%; 
+    font-size: 0.8em; 
+  }
