@@ -1,5 +1,4 @@
 .card {
-<<<<<<< HEAD
     position: absolute;
     top: 95%;
     left: 50%;
@@ -9,10 +8,4 @@
     border-radius: 14px;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.8);
-=======
-    padding: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    border-radius: 14px;
-    background-color: white;
->>>>>>> 5ab3a832b4e8be37bb1b74a2dc69e597a6337f72
   }

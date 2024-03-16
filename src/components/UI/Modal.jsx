@@ -1,9 +1,5 @@
 import { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-=======
-
->>>>>>> 5ab3a832b4e8be37bb1b74a2dc69e597a6337f72
 import classes from './Modal.module.css';
 
 const Backdrop = (props) => {
