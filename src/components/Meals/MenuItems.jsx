@@ -1,4 +1,3 @@
-import React  from 'react'
 import classes from './MenuItems.module.css';
 import MealItems from './MealItem/MealItems'
 import Card from '../UI/Card';
